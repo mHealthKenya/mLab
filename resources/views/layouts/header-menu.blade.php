@@ -34,16 +34,17 @@
                             <a href="{{route('vl_results')}}"><i class="i-Virus"></i>Viral Loads</a>
                             <a href="{{route('eid_results')}}"><i class="i-Virus-2"></i> EID Results</a>
                             <a href="{{route('hts_all_results')}}"><i class="i-Neutron"></i> HTS Results</a>
-                            <!-- <a href="{{route('vl_srl_raw_data')}}"><i class="i-Big-Data"></i> VL Remote Login</a>
+                            <a href="{{route('vl_srl_raw_data')}}"><i class="i-Big-Data"></i> VL Remote Login</a>
                             <a href="{{route('eid_srl_raw_data')}}"><i class="i-Virus-2"></i> EID Remote Login</a>
-                            <a href="{{route('hts_srl_raw_data')}}"><i class="i-Neutron"></i> HTS Remote Login</a> -->
+                            <a href="{{route('hts_srl_raw_data')}}"><i class="i-Neutron"></i> HTS Remote Login</a>
+                            <a href="{{route('sms_report')}}"><i class="i-Download-from-Cloud"></i> SMS Report</a>
                             <a href="{{route('raw_data_form')}}"><i class="i-Download-from-Cloud"></i> Raw Data</a>
 
                         </div>
                     </div>
                     @endif
                     @if(Auth::user()->user_level == 2)
-                    <div class="col-md-12 p-4 ">
+                    <div class="col-md-12  ">
                         <p class="text-primary text--cap border-bottom-primary d-inline-block">Adminstration & Reports
                         </p>
                         <div class="menu-icon-grid w-auto p-0">
@@ -55,9 +56,10 @@
                             <a href="{{route('vl_results')}}"><i class="i-Virus"></i>Viral Loads</a>
                             <a href="{{route('eid_results')}}"><i class="i-Virus-2"></i> EID Results</a>
                             <a href="{{route('hts_all_results')}}"><i class="i-Neutron"></i> HTS Results</a>
-                            <!-- <a href="{{route('vl_srl_raw_data')}}"><i class="i-Big-Data"></i> VL Remote Login</a>
+                            <a href="{{route('vl_srl_raw_data')}}"><i class="i-Big-Data"></i> VL Remote Login</a>
                             <a href="{{route('eid_srl_raw_data')}}"><i class="i-Virus-2"></i> EID Remote Login</a>
-                            <a href="{{route('hts_srl_raw_data')}}"><i class="i-Neutron"></i> HTS Remote Login</a> -->
+                            <a href="{{route('hts_srl_raw_data')}}"><i class="i-Neutron"></i> HTS Remote Login</a>
+                            <a href="{{route('sms_report')}}"><i class="i-Download-from-Cloud"></i> SMS Report</a>
                             <a href="{{route('raw_data_form')}}"><i class="i-Download-from-Cloud"></i> Raw Data</a>
                         </div>
                     </div>
@@ -72,9 +74,9 @@
                             <a href="{{route('vl_results')}}"><i class="i-Virus"></i>Viral Loads</a>
                             <a href="{{route('eid_results')}}"><i class="i-Virus-2"></i> EID Results</a>
                             <a href="{{route('hts_all_results')}}"><i class="i-Neutron"></i> HTS Results</a>
-                            <!-- <a href="{{route('vl_srl_raw_data')}}"><i class="i-Big-Data"></i> VL Remote Login</a>
+                            <a href="{{route('vl_srl_raw_data')}}"><i class="i-Big-Data"></i> VL Remote Login</a>
                             <a href="{{route('eid_srl_raw_data')}}"><i class="i-Virus-2"></i> EID Remote Login</a>
-                            <a href="{{route('hts_srl_raw_data')}}"><i class="i-Neutron"></i> HTS Remote Login</a> -->
+                            <a href="{{route('hts_srl_raw_data')}}"><i class="i-Neutron"></i> HTS Remote Login</a>
                             <a href="{{route('raw_data_form')}}"><i class="i-Download-from-Cloud"></i> Raw Data</a>
                         </div>
                     </div>
@@ -87,9 +89,9 @@
                             <a href="{{route('vl_results')}}"><i class="i-Virus"></i>Viral Loads</a>
                             <a href="{{route('eid_results')}}"><i class="i-Virus-2"></i> EID Results</a>
                             <a href="{{route('hts_all_results')}}"><i class="i-Neutron"></i> HTS Results</a>
-                            <!-- <a href="{{route('vl_srl_raw_data')}}"><i class="i-Big-Data"></i> VL Remote Login</a>
+                            <a href="{{route('vl_srl_raw_data')}}"><i class="i-Big-Data"></i> VL Remote Login</a>
                             <a href="{{route('eid_srl_raw_data')}}"><i class="i-Virus-2"></i> EID Remote Login</a>
-                            <a href="{{route('hts_srl_raw_data')}}"><i class="i-Neutron"></i> HTS Remote Login</a> -->
+                            <a href="{{route('hts_srl_raw_data')}}"><i class="i-Neutron"></i> HTS Remote Login</a>
                         </div>
                     </div>
                     @endif
@@ -102,9 +104,9 @@
                             <a href="{{route('vl_results')}}"><i class="i-Virus"></i>Viral Loads</a>
                             <a href="{{route('eid_results')}}"><i class="i-Virus-2"></i> EID Results</a>
                             <a href="{{route('hts_all_results')}}"><i class="i-Neutron"></i> HTS Results</a>                            <a href="{{route('eid_srl_results')}}"><i class="i-Neutron"></i> Remote Login</a>
-                            <!-- <a href="{{route('vl_srl_raw_data')}}"><i class="i-Big-Data"></i> VL Remote Login</a>
+                            <a href="{{route('vl_srl_raw_data')}}"><i class="i-Big-Data"></i> VL Remote Login</a>
                             <a href="{{route('eid_srl_raw_data')}}"><i class="i-Virus-2"></i> EID Remote Login</a>
-                            <a href="{{route('hts_srl_raw_data')}}"><i class="i-Neutron"></i> HTS Remote Login</a> -->
+                            <a href="{{route('hts_srl_raw_data')}}"><i class="i-Neutron"></i> HTS Remote Login</a>
                             <a href="{{route('raw_data_form')}}"><i class="i-Download-from-Cloud"></i> Raw Data</a>
                         </div>
                     </div>

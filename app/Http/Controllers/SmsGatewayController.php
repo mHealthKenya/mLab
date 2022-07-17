@@ -15,7 +15,7 @@ class SmsGatewayController extends Controller
 {
     public function sender(Request $request)
     {
-        $username = "mhealthuser";
+        $username = "Ushauri_KE";
         $apiKey = config('services.at_gt.key');;
         $AT       = new AfricasTalking($username, $apiKey);
          
@@ -25,7 +25,7 @@ class SmsGatewayController extends Controller
         $sms      = $AT->sms();
         // Use the service
         $send   = $sms->send([
-                        'from' => '40146',
+                        'from' => '40149',
                         'to'      => $phone,
                         'message' => $message
                     ]);

@@ -15,6 +15,11 @@ class CreateApiUsersTable extends Migration
     {
         Schema::create('api_users', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->string('password');
+            $table->string('status');
+            $table->integer('user_level');
             $table->timestamps();
         });
     }
